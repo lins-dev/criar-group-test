@@ -1,3 +1,84 @@
+# Race Results API
+
+Esta aplicação foi desenvolvida para processar e exibir informações relacionadas a resultados de corridas de kart, incluindo as as seguintes informações: Posição Chegada, Código Piloto, Nome Piloto,
+Quantidade de Voltas Completadas e Tempo Total de Prova, melhor volta de cada piloto, melhor volta da corrida, velocidade média de cada piloto durante toda a corrida e quanto tempo cada piloto chegou após o vencedor.
+<br>Como resposta ao desafio para programador Backend do Grupo Criar
+
+## Padrões Adotados
+No presente desafio, foi optado por manter a leitura dos dados fornecidos pelo Grupo Criar, de forma simples, por isso, tais dados são usados via um arquivo json.
+<br><br>
+Quanto aos padrões adotados, cada um dos cálculos foram separados em camandas, para facilitar o entendimento do código, bem como mantê-lo organizado.
+<br><br>
+Optou-se por utilizar as camadas de: 
+<br>Controller, responsável apenas por lídar com a requisição.
+<br>Service, responsável por cuidar da lógica da aplicação, bem como lidar com os dados vindos da camada de Repository
+<br>Repository, responsável por retornar os dados de entrada que serão utilizados para os cálculos
+<br>Action, seguindo os padrões mais recentes de organização de código, principalmente adotados nas comunidades do Laravel e PHP, para permitir encapsular funcionalidades específicas em classes separadas, melhorando a organização e a reutilização do código, bem como deixando apenas o necessário na camada Service.
+
+## Endpoints Criados
+
+
+### 1. [GET] /race/result
+Descrição:<br>
+Este endpoint exibe o resultado geral da corrida, incluindo:
+- **Posição Chegada**
+- **Código do piloto**
+- **Nome Piloto**
+- **Quantidade de Voltas Completadas**
+- **Tempo Total de Prova**
+- **Velocidade Média**
+
+### 2. [GET] /race/best-lap-in-race
+
+Descrição:<br>
+Este endpoint exibe a melhor volta da corrida inteira, identificando:
+- **Código do piloto**
+- **Nome Piloto**
+- **Melhor Volta**
+- **Número da Volta**
+
+### 3. [GET] /race/best-lap
+Descrição:<br>
+Este endpoint exibe a melhor volta de cada piloto, incluindo:
+- **Código do piloto**
+- **Nome Piloto**
+- **Melhor Volta**
+- **Número da Volta**
+
+### 4. [GET] /race/diff-winner
+Descrição:<br>
+Este endpoint exibe o tempo de chegada de cada piloto após o vencedor, incluindo:
+- **Código do piloto**
+- **Nome Piloto**
+- **Tempo Total (Segundos)**
+- **Tempo Após o Vencedor**
+
+
+## Como Rodar a Aplicação
+### 1. Clone o repositório:
+
+```
+git clone https://github.com/lins-dev/criar-group-test.git
+```
+### 2. Instale as dependências:
+
+```
+composer install
+```
+### 3. Execute o servidor integrado do Laravel:
+```
+php artisan serve
+```
+### 4. Acesse os endpoints:
+
+No navegador ou ferramenta como Postman, acesse os endpoints acima.
+## Dependências
+```
+"php" >= 8.2,
+"laravel/framework" >= 11
+```
+##
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -20,46 +101,6 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 

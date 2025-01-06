@@ -1,0 +1,186 @@
+[
+    {
+      "hour": "23:49:08.277",
+      "kart_number": "038",
+      "pilot_name": "F.MASSA",
+      "lap_number": 1,
+      "time_lap": "1:02.852",
+      "average_speed": 44.275
+    },
+    {
+      "hour": "23:49:10.858",
+      "kart_number": "033",
+      "pilot_name": "R.BARRICHELLO",
+      "lap_number": 1,
+      "time_lap": "1:04.352",
+      "average_speed": 43.243
+    },
+    {
+      "hour": "23:49:11.075",
+      "kart_number": "002",
+      "pilot_name": "K.RAIKKONEN",
+      "lap_number": 1,
+      "time_lap": "1:04.108",
+      "average_speed": 43.408
+    },
+    {
+      "hour": "23:49:12.667",
+      "kart_number": "023",
+      "pilot_name": "M.WEBBER",
+      "lap_number": 1,
+      "time_lap": "1:04.414",
+      "average_speed": 43.202
+    },
+    {
+      "hour": "23:49:30.976",
+      "kart_number": "015",
+      "pilot_name": "F.ALONSO",
+      "lap_number": 1,
+      "time_lap": "1:18.456",
+      "average_speed": 35.47
+    },
+    {
+      "hour": "23:50:11.447",
+      "kart_number": "038",
+      "pilot_name": "F.MASSA",
+      "lap_number": 2,
+      "time_lap": "1:03.170",
+      "average_speed": 44.053
+    },
+    {
+      "hour": "23:50:14.860",
+      "kart_number": "033",
+      "pilot_name": "R.BARRICHELLO",
+      "lap_number": 2,
+      "time_lap": "1:04.002",
+      "average_speed": 43.48
+    },
+    {
+      "hour": "23:50:15.057",
+      "kart_number": "002",
+      "pilot_name": "K.RAIKKONEN",
+      "lap_number": 2,
+      "time_lap": "1:03.982",
+      "average_speed": 43.493
+    },
+    {
+      "hour": "23:50:17.472",
+      "kart_number": "023",
+      "pilot_name": "M.WEBBER",
+      "lap_number": 2,
+      "time_lap": "1:04.805",
+      "average_speed": 42.941
+    },
+    {
+      "hour": "23:50:37.987",
+      "kart_number": "015",
+      "pilot_name": "F.ALONSO",
+      "lap_number": 2,
+      "time_lap": "1:07.011",
+      "average_speed": 41.528
+    },
+    {
+      "hour": "23:51:14.216",
+      "kart_number": "038",
+      "pilot_name": "F.MASSA",
+      "lap_number": 3,
+      "time_lap": "1:02.769",
+      "average_speed": 44.334
+    },
+    {
+      "hour": "23:51:18.576",
+      "kart_number": "033",
+      "pilot_name": "R.BARRICHELLO",
+      "lap_number": 3,
+      "time_lap": "1:03.716",
+      "average_speed": 43.675
+    },
+    {
+      "hour": "23:51:19.044",
+      "kart_number": "002",
+      "pilot_name": "K.RAIKKONEN",
+      "lap_number": 3,
+      "time_lap": "1:03.987",
+      "average_speed": 43.49
+    },
+    {
+      "hour": "23:51:21.759",
+      "kart_number": "023",
+      "pilot_name": "M.WEBBER",
+      "lap_number": 3,
+      "time_lap": "1:04.287",
+      "average_speed": 43.287
+    },
+    {
+      "hour": "23:51:46.691",
+      "kart_number": "015",
+      "pilot_name": "F.ALONSO",
+      "lap_number": 3,
+      "time_lap": "1:08.704",
+      "average_speed": 40.504
+    },
+    {
+      "hour": "23:52:01.796",
+      "kart_number": "011",
+      "pilot_name": "S.VETTEL",
+      "lap_number": 1,
+      "time_lap": "3:31.315",
+      "average_speed": 13.169
+    },
+    {
+      "hour": "23:52:17.003",
+      "kart_number": "038",
+      "pilot_name": "F.MASSA",
+      "lap_number": 4,
+      "time_lap": "1:02.787",
+      "average_speed": 44.321
+    },
+    {
+      "hour": "23:52:22.586",
+      "kart_number": "033",
+      "pilot_name": "R.BARRICHELLO",
+      "lap_number": 4,
+      "time_lap": "1:04.010",
+      "average_speed": 43.474
+    },
+    {
+      "hour": "23:52:22.120",
+      "kart_number": "002",
+      "pilot_name": "K.RAIKKONEN",
+      "lap_number": 4,
+      "time_lap": "1:03.076",
+      "average_speed": 44.118
+    },
+    {
+      "hour": "23:52:25.975",
+      "kart_number": "023",
+      "pilot_name": "M.WEBBER",
+      "lap_number": 4,
+      "time_lap": "1:04.216",
+      "average_speed": 43.335
+    },
+    {
+      "hour": "23:53:06.741",
+      "kart_number": "015",
+      "pilot_name": "F.ALONSO",
+      "lap_number": 4,
+      "time_lap": "1:20.050",
+      "average_speed": 34.763
+    },
+    {
+      "hour": "23:53:39.660",
+      "kart_number": "011",
+      "pilot_name": "S.VETTEL",
+      "lap_number": 2,
+      "time_lap": "1:37.864",
+      "average_speed": 28.435
+    },
+    {
+      "hour": "23:54:57.757",
+      "kart_number": "011",
+      "pilot_name": "S.VETTEL",
+      "lap_number": 3,
+      "time_lap": "1:18.097",
+      "average_speed": 35.633
+    }
+  ]
